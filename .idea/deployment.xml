@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ftp.nielsdewulf.be">
+    <serverData>
+      <paths name="FunergyDev">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ftp.nielsdewulf.be">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/subsites/school.nielsdewulf.be/Lab07" local="$PROJECT_DIR$" web="/Lab07" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19d85408-80e0-4a09-be2e-a79f2a1e9dcc" name="ftp.nielsdewulf.be" url="http://school.nielsdewulf.be">
+        <fileTransfer host="ftp.nielsdewulf.be" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
