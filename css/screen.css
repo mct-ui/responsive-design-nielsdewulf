@@ -645,9 +645,95 @@ figcaption {
     color: #FFF;
 }
 
-.c-link-cta::after, .c-link-cta--inverse:hover::after{
+.c-link-cta-inverse::after, .c-link-cta--inverse:hover::after{
     background: white;
 }
+
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c-footer__logo {
+    width: 100%;
+}
+
+.c-footer__nav {
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+    .c-footer {
+        justify-content: center;
+    }
+    .c-footer__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .c-footer__nav:nth-last-of-type(1) {
+        margin-left: 32px;
+    }
+
+    .c-footer__nav {
+        display: flex;
+    }
+    .c-footer__nav .c-nav__list{
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+        justify-content: space-between;
+    }
+
+    .c-footer__logo {
+        width: auto;
+        order: 2;
+    }
+    .c-footer__nav:nth-child(2) {
+        order: 1;
+    }
+    .c-footer__nav:nth-child(3) {
+        order: 3;
+    }
+
+    .c-footer__nav {
+        margin: 0!important;
+        width: calc(100% / 3);
+    }
+}
+
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+    display: flex;
+}
+
+.c-title-icon__icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 32px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+}
+
 
 /*------------------------------------*\
   #UTILITIES
